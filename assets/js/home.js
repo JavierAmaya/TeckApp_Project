@@ -48,7 +48,7 @@ function logout() {
         dataType: 'json',
         success: function (res) {
             console.log(res);
-            window.location = './index.html'
+            window.location = './index.php'
         },
         error: function (error) {
             console.error(error);
